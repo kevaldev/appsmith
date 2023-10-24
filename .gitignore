@@ -1,6 +1,5 @@
 .DS_Store
 *.iml
-.env
 
 stacks
 /deploy/docker/fs/opt/appsmith/info.json
@@ -28,7 +27,6 @@ app/client/.yalc/
 app/client/yalc.lock
 
 # editor related
-.vscode/*
 .idea
 .fleet/*
 app/client/.fleet/*
@@ -36,3 +34,4 @@ app/client/.fleet/*
 # Observability related local storage
 utils/observability/tempo-data/*
 
+config.bat
